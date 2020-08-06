@@ -19,6 +19,9 @@ public class BasicAnnotation
         System.out.println("这是测试用例二");
     }
 
+    @Test
+    public void testCase3(){ System.out.printf("Thread Id : %s%n", Thread.currentThread().getId());}
+
     @BeforeMethod
     public void beforeMethod()
     {
