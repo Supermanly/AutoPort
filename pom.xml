@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>2.2.2.RELEASE</version>
+    </parent>
     <groupId>com.course.code</groupId>
     <artifactId>Chapter</artifactId>
     <packaging>pom</packaging>
@@ -13,6 +19,12 @@
 
         <module>Chapter5</module>
         <module>Chapter6</module>
+        <module>Chapter9</module>
+        <module>Chapter10</module>
+        <module>Chapter11</module>
+        <module>Chapter11</module>
+        <module>Chapter12</module>
+        <module>Chapter13</module>
 
     </modules>
 

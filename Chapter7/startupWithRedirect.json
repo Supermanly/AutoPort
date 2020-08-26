@@ -1,0 +1,29 @@
+[
+  {
+    "description": "重定向到doc88",
+    "request":
+    {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.doc88.com"
+  },
+  {
+    "description": "这是一个重定向自己的网页上的",
+    "request":
+    {
+      "uri": "/redirect/topath"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "这是被重定向的请求",
+    "request":
+    {
+      "uri": "/redirect/new"
+    },
+    "response":
+    {
+      "text": "重定向成功啦"
+    }
+  }
+]
